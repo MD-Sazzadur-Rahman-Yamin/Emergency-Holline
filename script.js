@@ -9,3 +9,8 @@ for (const heart of hearts) {
     heartCount.innerText = initialCount;
   });
 }
+
+//
+document.getElementById("clear-btn").addEventListener("click", function () {
+  document.getElementById("history-list-container").innerText = "";
+});
