@@ -13,7 +13,8 @@ body {
   background-color: #f5fff6;
 }
 
-button:hover {
+button:hover,
+.heart:hover {
   cursor: pointer;
 }
 
@@ -244,29 +245,29 @@ button:hover {
 
 /* REsponsive Media Quary */
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width: 1400px) {
   #hotline-card-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   #hotline-section-container {
     display: block;
   }
-  #history-container{
+  #history-container {
     margin-top: 1.875rem;
   }
-  #history-list-container{
+  #history-list-container {
     padding-bottom: 1rem;
   }
 }
 @media screen and (max-width: 600px) {
-  #nav{
+  #nav {
     flex-direction: column;
     gap: 1rem;
   }
-  #hotline-section-container{
+  #hotline-section-container {
     margin: 2rem 1rem;
   }
 }
